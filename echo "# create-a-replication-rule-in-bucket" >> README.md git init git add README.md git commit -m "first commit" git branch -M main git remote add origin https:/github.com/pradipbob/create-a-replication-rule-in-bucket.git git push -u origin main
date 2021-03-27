@@ -1,0 +1,10 @@
+step 1 = create two buckets in a different regions 
+step 2 = enable versioning in both the buckets.
+step 3 = 
+	create replication rule in a first bucket
+		a) give a replication rule name
+		b) status= enabled
+		c)choose a destination bucket name
+		d)create a new IAM role
+
+step 4 = upload the any object in first bucket and it will automatically replicate in second bucket 
